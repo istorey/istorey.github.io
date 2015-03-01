@@ -47,16 +47,17 @@ div {
   height: 35em;
   background-image: url(../images/portfolio_header4.png);
   background-position: right;
+  padding: auto;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .vinylA {
   height: 20%;
   background: black;
   height: 100px;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .projects {
   height: 150em;
   background-image: url(../images/projects2.png);
@@ -69,7 +70,7 @@ div {
 .project1 .container {
   width: 32.20339%;
   float: left;
-  margin-left: 42.37288%;
+  margin-left: 33.89831%;
   margin-right: -100%;
   perspective: 1000;
   padding-top: 5em;
@@ -116,7 +117,7 @@ div {
 .project1 p {
   z-index: 2;
 }
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -127,7 +128,7 @@ div {
 .project2 .container {
   width: 32.20339%;
   float: left;
-  margin-left: 42.37288%;
+  margin-left: 33.89831%;
   margin-right: -100%;
   perspective: 1000;
   padding-top: 5em;
@@ -179,7 +180,7 @@ div {
 .project3 .container {
   width: 32.20339%;
   float: left;
-  margin-left: 42.37288%;
+  margin-left: 33.89831%;
   margin-right: -100%;
   perspective: 1000;
   padding-top: 5em;
@@ -226,7 +227,7 @@ div {
 .project3 p {
   z-index: 2;
 }
-/* line 134, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
@@ -234,14 +235,139 @@ div {
   background-repeat: no-repeat;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
+.project4 .container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 33.89831%;
+  margin-right: -100%;
+  perspective: 1000;
+  padding-top: 5em;
+}
+/* line 13, ../sass/style.scss */
+.project4 .container:hover .card, .project4 .container.hover .card {
+  transform: rotateY(180deg);
+}
+/* line 17, ../sass/style.scss */
+.project4 .container, .project4 .A_side, .project4 .B_side {
+  height: 20em;
+  width: 24em;
+}
+/* line 22, ../sass/style.scss */
+.project4 .card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+/* line 29, ../sass/style.scss */
+.project4 .A_side, .project4 .B_side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 36, ../sass/style.scss */
+.project4 .A_side {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: red;
+  padding-left: 1em;
+  display: block;
+}
+/* line 44, ../sass/style.scss */
+.project4 .B_side {
+  transform: rotateY(180deg);
+  background: grey;
+  padding-left: 1em;
+  display: block;
+}
+/* line 50, ../sass/style.scss */
+.project4 p {
+  z-index: 2;
+}
+/* line 148, ../sass/style.scss */
+.project4 .A_side {
+  background: url(../images/Logo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 154, ../sass/style.scss */
+.project4 .B_side {
+  background: url(../images/passportpdx.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 7, ../sass/style.scss */
+.project5 .container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 33.89831%;
+  margin-right: -100%;
+  perspective: 1000;
+  padding-top: 5em;
+}
+/* line 13, ../sass/style.scss */
+.project5 .container:hover .card, .project5 .container.hover .card {
+  transform: rotateY(180deg);
+}
+/* line 17, ../sass/style.scss */
+.project5 .container, .project5 .A_side, .project5 .B_side {
+  height: 20em;
+  width: 24em;
+}
+/* line 22, ../sass/style.scss */
+.project5 .card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+/* line 29, ../sass/style.scss */
+.project5 .A_side, .project5 .B_side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 36, ../sass/style.scss */
+.project5 .A_side {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: red;
+  padding-left: 1em;
+  display: block;
+}
+/* line 44, ../sass/style.scss */
+.project5 .B_side {
+  transform: rotateY(180deg);
+  background: grey;
+  padding-left: 1em;
+  display: block;
+}
+/* line 50, ../sass/style.scss */
+.project5 p {
+  z-index: 2;
+}
+/* line 164, ../sass/style.scss */
+.project5 .A_side {
+  background: url(../images/justline.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 171, ../sass/style.scss */
 .vinylB {
   height: 20%;
   background: black;
   height: 100px;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .other_interests {
   height: 80em;
   background-image: url(../images/other2.png);
@@ -249,7 +375,70 @@ div {
   background-size: 25em;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
+.row {
+  width: 83.05085%;
+  float: left;
+  margin-left: 16.94915%;
+  margin-right: -100%;
+  display: block;
+  position: absolute;
+  padding-top: 10em;
+  padding-left: 1em;
+  height: 20em;
+}
+
+/* line 194, ../sass/style.scss */
+.row2 {
+  display: block;
+  position: absolute;
+  padding-top: 30em;
+  padding-left: 23em;
+  height: 20em;
+  clear: both;
+}
+
+/* line 203, ../sass/style.scss */
+.music {
+  background-image: url(../images/drawing.jpg);
+  background-attachment: local;
+  height: 20em;
+  width: 20em;
+}
+
+/* line 210, ../sass/style.scss */
+.drawing {
+  background-image: url(../images/photo.jpg);
+  height: 20em;
+  width: 20em;
+  background-attachment: local;
+}
+
+/* line 217, ../sass/style.scss */
+.oregon {
+  background-image: url(../images/books.jpg);
+  height: 20em;
+  width: 20em;
+  background-attachment: local;
+}
+
+/* line 225, ../sass/style.scss */
+.community {
+  background-image: url(../images/raspi.png);
+  height: 20em;
+  width: 20em;
+  background-attachment: local;
+}
+
+/* line 232, ../sass/style.scss */
+.hardware {
+  background-image: url(../images/megaman1.png);
+  height: 20em;
+  width: 20em;
+  background-attachment: local;
+}
+
+/* line 239, ../sass/style.scss */
 .Business_card {
   width: 83.05085%;
   float: left;

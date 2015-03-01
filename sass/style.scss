@@ -5,7 +5,7 @@
 
 @mixin container{
 	.container {
-		@include span(4 at 6 isolate);
+		@include span(4 at 5 isolate);
 		perspective: 1000;
 		padding-top: 5em;
 	}
@@ -100,6 +100,7 @@ z-index: 3;
 	height: 35em;
 	background-image:url(../images/portfolio_header4.png);
 	background-position: right;
+	padding: auto;
 }
 
 .vinylA {
@@ -142,7 +143,31 @@ z-index: 3;
 	}
 }
 
+.project4{
+	@include container;
+		.A_side {
+		background: url(../images/Logo.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+		.B_side {
+		background: url(../images/passportpdx.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		}
+}
 
+.project5{
+	@include container;
+		.A_side {
+		background: url(../images/justline.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
 .vinylB {
 	height:20%;
 	background:black;
@@ -155,6 +180,60 @@ z-index: 3;
 	background-position: left;
 	background-size: 25em;
 
+}
+
+.row {
+	@include span(last 10 isolate);
+	display: block;
+	position: absolute;
+	padding-top: 10em;
+	padding-left: 1em;
+	height: 20em;
+}
+
+.row2{
+	display: block;
+	position: absolute;
+	padding-top: 30em;
+	padding-left: 23em;
+	height: 20em;
+	clear: both;
+}
+
+.music {
+	background-image: url(../images/drawing.jpg);
+	background-attachment: local;
+	height: 20em;
+	width: 20em;
+}
+
+.drawing {
+	background-image: url(../images/photo.jpg);
+	height: 20em;
+	width: 20em;
+	background-attachment: local;
+}
+
+.oregon {
+background-image: url(../images/books.jpg);
+	height: 20em;
+	width: 20em;
+	background-attachment: local;
+}
+
+
+.community {
+  background-image: url(../images/raspi.png);
+	height: 20em;
+	width: 20em;
+	background-attachment: local;
+}
+
+.hardware {
+	background-image: url(../images/megaman1.png);
+	height: 20em;
+	width: 20em;
+	background-attachment: local;
 }
 
 .Business_card {
