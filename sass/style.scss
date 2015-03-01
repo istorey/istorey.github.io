@@ -1,0 +1,165 @@
+// Screen
+// ======
+
+@import "grids";
+
+@mixin container{
+	.container {
+		@include span(4 at 6 isolate);
+		perspective: 1000;
+		padding-top: 5em;
+	}
+
+	.container:hover .card, .container.hover .card {
+		transform: rotateY(180deg);
+	}
+
+	.container, .A_side, .B_side {
+		height: 20em;
+		width: 24em;
+	}
+
+	.card {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+		position: relative;
+		box-shadow:2px 2px 2px 2px grey;
+	}
+
+	.A_side, .B_side {
+		backface-visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.A_side {
+		z-index: 2;
+		transform: rotateY(0deg);
+		background: red;
+		padding-left: 1em;
+		display: block;
+	}
+
+	.B_side {
+		transform: rotateY(180deg);
+		background: grey;
+		padding-left: 1em;
+		display: block;
+	}
+	p {
+		z-index: 2;
+	}
+
+}
+
+
+
+
+
+html {
+	box-sizing: border-box;
+	font-family: courier;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+}
+
+body {
+	background: lightblue; 
+}
+
+div{
+	@include span(12);
+	//height: 100%;
+	display: flex;
+	background-size: 70%;
+	//background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.nav {
+background: rgba(255, 0, 0, 0.1);
+text-align: center;
+position: fixed;
+padding-left: 30%;
+z-index: 3;
+}
+
+.nav:hover {
+	color: yellow;
+}
+
+.header {
+	
+}
+.greeting{
+	padding-top: 10%;
+}
+
+.intro{
+	height: 35em;
+	background-image:url(../images/portfolio_header4.png);
+	background-position: right;
+}
+
+.vinylA {
+	height:20%;
+	background:black;
+	height: 100px;
+}
+
+.projects {
+	height:150em;
+	background-image:url(../images/projects2.png);
+	background-position: left;
+	background-size: 25em;
+	display: block;
+}
+
+.project1 {
+	@include container;
+		.A_side {
+		background: url(../images/ourwall.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+.project2 {
+	@include container;
+}
+
+.project3 {
+	@include container;
+		.A_side {
+		background: url(../images/honeybuckets.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}
+	.B_side {
+	}
+}
+
+
+.vinylB {
+	height:20%;
+	background:black;
+	height: 100px;
+}
+
+.other_interests {
+	height:80em;
+	background-image:url(../images/other2.png);
+	background-position: left;
+	background-size: 25em;
+
+}
+
+.Business_card {
+	@include span(10 at 2 isolate);
+	height:30em;
+	background:white;
+	border:solid;
+} 
