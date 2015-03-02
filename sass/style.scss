@@ -8,6 +8,8 @@
 		@include span(4 at 5 isolate);
 		perspective: 1000;
 		padding-top: 5em;
+		cursor: pointer;
+
 	}
 
 	.container:hover .card, .container.hover .card {
@@ -23,7 +25,7 @@
 		transition: 0.6s;
 		transform-style: preserve-3d;
 		position: relative;
-		box-shadow:2px 2px 2px 2px grey;
+		box-shadow:-4px 2px 2px 2px grey;
 	}
 
 	.A_side, .B_side {
@@ -31,6 +33,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		box-shadow:0px 4px 0px 2px grey;
 	}
 
 	.A_side {
@@ -65,7 +68,8 @@ html {
 }
 
 body {
-	background: lightblue; 
+	// background: url(../images/bg1.jpg) no-repeat center center fixed;
+	// background-size: cover; 
 }
 
 div{
@@ -85,19 +89,20 @@ padding-left: 30%;
 z-index: 3;
 }
 
-.nav:hover {
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+.nav a:hover {
 	color: yellow;
 }
 
-.header {
-	
-}
 .greeting{
 	padding-top: 10%;
 }
 
 .intro{
-	height: 35em;
+	height: 45em;
 	background-image:url(../images/portfolio_header4.png);
 	background-position: right;
 	padding: auto;
@@ -109,8 +114,29 @@ z-index: 3;
 	height: 100px;
 }
 
+.content {
+	padding: 1em;
+	margin: 1em;
+}
+
+.design {
+	height: 10em;
+	margin: auto;
+	padding: auto;
+}
+
+.design p {
+	@include span(12);
+	text-align: right;
+	padding: 1.5em;
+	//padding-right:;
+	font-size: 36px;
+	color: red;
+	font-style: italic;	
+}
+
 .projects {
-	height:150em;
+	height:180em;
 	background-image:url(../images/projects2.png);
 	background-position: left;
 	background-size: 25em;
@@ -120,22 +146,27 @@ z-index: 3;
 .project1 {
 	@include container;
 		.A_side {
-		background: url(../images/ourwall.png);
+		background: url(../images/honeybuckets.png);
 		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 	}
 }
 
 .project2 {
 	@include container;
+		.A_side {
+		background: url(../images/mission.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
 
 .project3 {
 	@include container;
 		.A_side {
-		background: url(../images/honeybuckets.png);
+		background: url(../images/ourwall.png);
 		background-size: cover;
-		background-position: center;
 		background-repeat: no-repeat;
 
 	}
@@ -152,7 +183,7 @@ z-index: 3;
 		background-repeat: no-repeat;
 	}
 		.B_side {
-		background: url(../images/passportpdx.jpg);
+		background: url(../images/passportpdx.png);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -162,11 +193,28 @@ z-index: 3;
 .project5{
 	@include container;
 		.A_side {
-		background: url(../images/justline.jpg);
+		background: url(../images/hillsdale.png);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 	}
+	
+}
+
+.project6{
+	@include container;
+	.A_side {
+		background: url(../images/justline.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+		.B_side {
+			background: url(../images/JLB.png);
+			background-size: cover;
+			background-position: center;
+			
+		}
 }
 .vinylB {
 	height:20%;
@@ -175,7 +223,7 @@ z-index: 3;
 }
 
 .other_interests {
-	height:80em;
+	height:65em;
 	background-image:url(../images/other2.png);
 	background-position: left;
 	background-size: 25em;
@@ -183,62 +231,62 @@ z-index: 3;
 }
 
 .row {
-	@include span(last 10 isolate);
-	display: block;
-	position: absolute;
-	padding-top: 10em;
-	padding-left: 1em;
-	height: 20em;
-}
-
-.row2{
-	display: block;
-	position: absolute;
-	padding-top: 30em;
-	padding-left: 23em;
-	height: 20em;
-	clear: both;
-}
-
-.music {
-	background-image: url(../images/drawing.jpg);
-	background-attachment: local;
-	height: 20em;
-	width: 20em;
+	@include span(2 at 5 isolate);
+  display: block;
+  display: inline;
+	padding-top: 5em;
+	padding-left: 5em;
 }
 
 .drawing {
+	background-image: url(../images/drawing.jpg);
+	height: 18em;
+	width: 15em;
+	background-attachment: local;
+	background-size: 100%;
+	background-position: center;
+	padding-bottom: 7em;
+}
+
+.drawing:hover {
+	background: black;
+}
+
+.photo {
 	background-image: url(../images/photo.jpg);
-	height: 20em;
-	width: 20em;
+	height: 18em;
+	width: 15em;
 	background-attachment: local;
-}
-
-.oregon {
-background-image: url(../images/books.jpg);
-	height: 20em;
-	width: 20em;
-	background-attachment: local;
-}
-
-
-.community {
-  background-image: url(../images/raspi.png);
-	height: 20em;
-	width: 20em;
-	background-attachment: local;
+	background-size: contain;
 }
 
 .hardware {
-	background-image: url(../images/megaman1.png);
-	height: 20em;
-	width: 20em;
+  background-image: url(../images/Rasp.jpg);
+	height: 18em;
+	width: 15em;
 	background-attachment: local;
+	background-size: contain;
 }
 
 .Business_card {
 	@include span(10 at 2 isolate);
-	height:30em;
+	height:35em;
 	background:white;
 	border:solid;
+	display: block;
 } 
+
+.Business_card {
+	text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+img{
+	height: 5em;
+	width: 5em;
+	padding: 1em;
+	padding-left: 3em;
+}
