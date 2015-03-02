@@ -25,7 +25,7 @@
 		transition: 0.6s;
 		transform-style: preserve-3d;
 		position: relative;
-		box-shadow:-4px 2px 2px 2px grey;
+		//box-shadow:-4px 2px 2px 2px grey;
 	}
 
 	.A_side, .B_side {
@@ -33,7 +33,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		box-shadow:0px 4px 0px 2px grey;
+		//box-shadow:0px 4px 0px 2px grey;
 	}
 
 	.A_side {
@@ -42,11 +42,12 @@
 		background: red;
 		padding-left: 1em;
 		display: block;
+		box-shadow:-4px 2px 2px 2px grey;
 	}
 
 	.B_side {
 		transform: rotateY(180deg);
-		background: grey;
+		background: green;
 		padding-left: 1em;
 		display: block;
 	}
@@ -68,7 +69,7 @@ html {
 }
 
 body {
-	background: url(../images/bg1.jpg) no-repeat center center fixed;
+	background: url(../images/bg5.jpg) no-repeat center center fixed;
 	background-size: cover; 
 }
 
@@ -85,7 +86,7 @@ div{
 background: rgba(255, 0, 0, 0.1);
 text-align: center;
 position: fixed;
-padding-left: 30%;
+padding-left: 25%;
 z-index: 3;
 }
 
@@ -94,7 +95,7 @@ z-index: 3;
 	color: white;
 }
 .nav a:hover {
-	color: yellow;
+	color: green;
 }
 
 .greeting{
@@ -102,16 +103,22 @@ z-index: 3;
 }
 
 .intro{
-	height: 45em;
+	height: 40em;
 	background-image:url(../images/portfolio_header4.png);
 	background-position: right;
-	padding: auto;
+	//padding-top: 5em;
+	background-size: contain;
 }
 
 .vinylA {
-	height:20%;
 	background:black;
-	height: 100px;
+	height: 10em;
+	font-size: 2em;
+	overflow:auto;
+}
+
+.vinylA p{
+	text-align: center;
 }
 
 .content {
@@ -207,7 +214,7 @@ z-index: 3;
 		background: url(../images/justline.jpg);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 	}
 		.B_side {
 			background: url(../images/JLB.png);
@@ -217,9 +224,9 @@ z-index: 3;
 		}
 }
 .vinylB {
-	height:20%;
 	background:black;
-	height: 100px;
+	height: 10em;
+	font-size: 2em;
 }
 
 .other_interests {
@@ -230,50 +237,22 @@ z-index: 3;
 
 }
 
-.row {
-	@include span(3 at 5 isolate);
-  display: block;
-  display: inline;
-	padding-top: 5em;
-	padding-left: 5em;
-}
-
-.drawing {
-	background-image: url(../images/drawing.jpg);
-	height: 18em;
-	width: 15em;
-	background-attachment: local;
-	background-size: 100%;
-	background-position: center;
-	padding-bottom: 7em;
-}
-
-// .drawing:hover {
-// 	background: black;
-// }
-
-.photo {
-	background-image: url(../images/photo.jpg);
-	height: 18em;
-	width: 15em;
-	background-attachment: local;
-	background-size: contain;
-}
-
-.hardware {
-  background-image: url(../images/Rasp.jpg);
-	height: 18em;
-	width: 15em;
-	background-attachment: local;
-	background-size: contain;
+.more {
+	position: relative;
+	height: 10em;
+	width: 30em;
+	background: rgba(0,0,0,0.3);
+	padding: 10em;
+	margin: 10em;
 }
 
 .Business_card {
-	@include span(10 at 2 isolate);
+	//@include span(12);
 	height:35em;
 	background:white;
 	border:solid;
 	display: block;
+	//padding-left: 5em;
 } 
 
 .Business_card {
@@ -288,5 +267,5 @@ img{
 	height: 5em;
 	width: 5em;
 	padding: 1em;
-	padding-left: 3em;
+	padding-left: 5em;
 }
