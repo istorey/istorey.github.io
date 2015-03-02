@@ -231,7 +231,7 @@ z-index: 3;
 }
 
 .row {
-	@include span(2 at 5 isolate);
+	@include span(3 at 5 isolate);
   display: block;
   display: inline;
 	padding-top: 5em;
