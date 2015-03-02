@@ -508,11 +508,6 @@ div {
   padding-bottom: 7em;
 }
 
-/* line 251, ../sass/style.scss */
-.drawing:hover {
-  background: black;
-}
-
 /* line 255, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.jpg);
