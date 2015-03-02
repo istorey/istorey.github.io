@@ -6,6 +6,12 @@ html {
   color: white;
 }
 
+/* line 70, ../sass/style.scss */
+body {
+  background: url(../images/bg1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 /* line 75, ../sass/style.scss */
 div {
   width: 100%;
