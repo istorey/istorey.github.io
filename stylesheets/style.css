@@ -585,15 +585,20 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 318, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
+ul {
+  padding-left: 18em;
+}
+
+/* line 320, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 322, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
-  padding: 1em;
-  padding-left: 5em;
+  padding-top: 0.25em;
+  padding-left: 2em;
 }

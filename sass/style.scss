@@ -314,7 +314,9 @@ font-variant: small-caps;
 	text-shadow: white;
 	font-variant: small-caps;
 }
-
+ul{
+	padding-left: 18em;
+}
 li{
 	display: inline;
 }
@@ -322,6 +324,6 @@ li{
 img{
 	height: 4em;
 	width: 4em;
-	padding: 1em;
-	padding-left: 5em;
+	padding-top: 0.25em;
+	padding-left: 2em;
 }
