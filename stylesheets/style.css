@@ -1,19 +1,19 @@
-/* line 64, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 html {
   box-sizing: border-box;
   font-family: courier;
-  font-variant: small-caps;
   text-shadow: 1px 1px 1px black;
   color: white;
+  font-size: 24px;
 }
 
-/* line 73, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 body {
-  background: url(../images/bg6.jpg) no-repeat center center fixed;
+  background: url(../images/bg8.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 78, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 div {
   width: 100%;
   float: left;
@@ -25,44 +25,48 @@ div {
   background-repeat: no-repeat;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 a:link {
   color: #09B9B4;
   text-decoration: none;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 a:link, a:visited {
   color: #09B9B4;
   text-decoration: none;
 }
 
-/* line 97, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .nav {
   background: rgba(255, 0, 0, 0.1);
   text-align: center;
   position: fixed;
   padding-left: 25%;
   z-index: 3;
+  font-variant: small-caps;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .nav a {
   text-decoration: none;
   color: white;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .nav a:hover {
   color: green;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .greeting {
-  padding-top: 10%;
+  padding-top: 15%;
+  padding-left: 5%;
+  font-size: 36px;
+  font-variant: small-caps;
 }
 
-/* line 117, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .intro {
   height: 40em;
   background-image: url(../images/portfolio_header4.png);
@@ -70,46 +74,42 @@ a:link, a:visited {
   background-size: contain;
 }
 
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .vinylA {
   background: black;
   height: 10em;
   font-size: 2em;
   overflow: auto;
+  font-style: italic;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .vinylA p {
   text-align: center;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .content {
   padding: 1em;
   margin: 1em;
 }
 
-/* line 141, ../sass/style.scss */
-.design {
-  height: 10em;
-  margin: auto;
-  padding: auto;
-}
-
-/* line 147, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .design p {
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
   text-align: right;
-  padding: 1.5em;
+  padding-top: 2.5em;
+  padding-right: 2em;
   font-size: 36px;
   color: red;
   font-style: italic;
+  font-variant: small-caps;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .projects {
   height: 180em;
   background-image: url(../images/projects2.png);
@@ -165,17 +165,22 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project1 p {
   z-index: 2;
 }
-/* line 167, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+/* line 170, ../sass/style.scss */
+.project1 .B_side p {
+  font-variant: none;
 }
 
 /* line 7, ../sass/style.scss */
@@ -225,12 +230,13 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project2 p {
   z-index: 2;
 }
-/* line 177, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .project2 .A_side {
   background: url(../images/mission.png);
   background-size: cover;
@@ -284,12 +290,13 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project3 p {
   z-index: 2;
 }
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -343,19 +350,20 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project4 p {
   z-index: 2;
 }
-/* line 198, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .project4 .A_side {
   background: url(../images/Logo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 204, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .project4 .B_side {
   background: url(../images/passportpdx.png);
   background-size: cover;
@@ -410,12 +418,13 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project5 p {
   z-index: 2;
 }
-/* line 214, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .project5 .A_side {
   background: url(../images/hillsdale.png);
   background-size: cover;
@@ -470,74 +479,119 @@ a:link, a:visited {
   background: #006C2C;
   padding-left: 1em;
   display: block;
+  overflow: auto;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .project6 p {
   z-index: 2;
 }
-/* line 225, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .project6 .A_side {
   background: url(../images/justline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .project6 .B_side {
   background: url(../images/JLB.png);
   background-size: cover;
   background-position: center;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .vinylB {
-  background: black;
+  background: rgba(0, 0, 0, 0.8);
   height: 10em;
   font-size: 2em;
+  text-align: center;
+  padding: 1em;
 }
 
-/* line 244, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
+.label {
+  text-align: right;
+  color: red;
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 1em;
+}
+
+/* line 255, ../sass/style.scss */
 .other_interests {
-  height: 65em;
+  height: 95em;
   background-image: url(../images/other2.png);
   background-position: left;
   background-size: 25em;
 }
 
-/* line 252, ../sass/style.scss */
-.more {
-  position: relative;
-  height: 10em;
-  width: 30em;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 10em;
-  margin: 10em;
+/* line 263, ../sass/style.scss */
+.other {
+  width: 32.20339%;
+  float: left;
+  margin-left: 33.89831%;
+  margin-right: -100%;
+  display: block;
 }
 
-/* line 261, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
+.wrapper {
+  height: 20em;
+  position: relative;
+  padding-top: 5em;
+}
+
+/* line 274, ../sass/style.scss */
+.drawing {
+  background-image: url(../images/drawing.png);
+  background-size: contain;
+  background-attachment: local;
+}
+
+/* line 281, ../sass/style.scss */
+.interests {
+  font-size: 40px;
+}
+
+/* line 286, ../sass/style.scss */
+.photo {
+  background-image: url(../images/photo.png);
+  background-size: contain;
+  background-attachment: local;
+}
+
+/* line 292, ../sass/style.scss */
+.hardware {
+  background-image: url(../images/hardware.png);
+  background-size: contain;
+  background-attachment: local;
+}
+
+/* line 298, ../sass/style.scss */
 .Business_card {
-  height: 35em;
+  height: 30em;
   background: white;
   border: solid;
   display: block;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
   text-shadow: white;
+  font-variant: small-caps;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 281, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 img {
-  height: 5em;
-  width: 5em;
+  height: 4em;
+  width: 4em;
   padding: 1em;
   padding-left: 5em;
 }
