@@ -504,13 +504,17 @@ a:link, a:visited {
 .vinylB {
   background: black;
   color: white;
-  height: 10em;
+  height: 13em;
   font-size: 2em;
   text-align: center;
-  padding: 1em;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
+.vinylB p {
+  margin: 2em;
+}
+
+/* line 253, ../sass/style.scss */
 .label {
   text-align: right;
   color: red;
@@ -519,7 +523,7 @@ a:link, a:visited {
   padding-top: 1em;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .other_interests {
   height: 95em;
   background-image: url(../images/other2.png);
@@ -527,7 +531,7 @@ a:link, a:visited {
   background-size: 25em;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .other {
   width: 32.20339%;
   float: left;
@@ -536,58 +540,57 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 284, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 301, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .Business_card {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
   height: 30em;
   background: white;
   border: solid;
   display: block;
 }
 
-/* line 310, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
   text-shadow: white;
   font-variant: small-caps;
-}
-
-/* line 317, ../sass/style.scss */
-.contact {
-  padding-left: 15em;
 }
 
 /* line 320, ../sass/style.scss */
@@ -600,5 +603,5 @@ img {
   height: 4em;
   width: 4em;
   padding-top: 0.25em;
-  padding-left: 2em;
+  padding-left: 4.5em;
 }
