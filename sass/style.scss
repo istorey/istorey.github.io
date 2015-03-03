@@ -47,7 +47,7 @@
 
 	.B_side {
 		transform: rotateY(180deg);
-		background: green;
+		background: #006C2C;
 		padding-left: 1em;
 		display: block;
 	}
@@ -63,13 +63,15 @@
 
 html {
 	box-sizing: border-box;
+	//font-family: Futura;
 	font-family: courier;
+	font-variant: small-caps;
 	text-shadow: 1px 1px 1px black;
 	color: white;
 }
 
 body {
-	background: url(../images/bg1.png) no-repeat center center fixed;
+	background: url(../images/bg6.jpg) no-repeat center center fixed;
 	background-size: cover; 
 }
 
@@ -81,6 +83,16 @@ div{
 	//background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+}
+
+a:link {
+	color: #09B9B4;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #09B9B4;
+	text-decoration: none;
 }
 .nav {
 background: rgba(255, 0, 0, 0.1);
@@ -255,8 +267,11 @@ z-index: 3;
 	//padding-left: 5em;
 } 
 
-.Business_card {
+.Business_card p{
 	text-align: center;
+	//color: #09B9B4;
+	color:black;
+	text-shadow: white;
 }
 
 li{
