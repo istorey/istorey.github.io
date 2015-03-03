@@ -593,12 +593,17 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 320, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
+.contact {
+  padding-left: 9em;
+}
+
+/* line 322, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 324, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
