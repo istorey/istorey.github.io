@@ -586,8 +586,8 @@ a:link, a:visited {
 }
 
 /* line 317, ../sass/style.scss */
-ul {
-  padding-left: 18em;
+.contact {
+  padding-left: 15em;
 }
 
 /* line 320, ../sass/style.scss */
