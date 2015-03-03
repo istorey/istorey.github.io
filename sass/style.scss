@@ -129,6 +129,7 @@ font-variant: small-caps;
 	font-size: 2em;
 	overflow:auto;
 	font-style: italic;
+	padding-bottom: 2em;
 }
 
 .vinylA p{
@@ -237,7 +238,9 @@ font-variant: small-caps;
 		}
 }
 .vinylB {
-	background:rgba(0,0,0,0.8);
+	//background:rgba(0,0,0,0.8);
+	background: black;
+	color: white;
 	height: 10em;
 	font-size: 2em;
 	text-align: center;

@@ -81,20 +81,21 @@ a:link, a:visited {
   font-size: 2em;
   overflow: auto;
   font-style: italic;
+  padding-bottom: 2em;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .vinylA p {
   text-align: center;
 }
 
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .content {
   padding: 1em;
   margin: 1em;
 }
 
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .design p {
   width: 100%;
   float: left;
@@ -109,7 +110,7 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .projects {
   height: 180em;
   background-image: url(../images/projects2.png);
@@ -171,14 +172,14 @@ a:link, a:visited {
 .project1 p {
   z-index: 2;
 }
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 170, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .project1 .B_side p {
   font-variant: none;
 }
@@ -236,7 +237,7 @@ a:link, a:visited {
 .project2 p {
   z-index: 2;
 }
-/* line 178, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .project2 .A_side {
   background: url(../images/mission.png);
   background-size: cover;
@@ -296,7 +297,7 @@ a:link, a:visited {
 .project3 p {
   z-index: 2;
 }
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -356,14 +357,14 @@ a:link, a:visited {
 .project4 p {
   z-index: 2;
 }
-/* line 199, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .project4 .A_side {
   background: url(../images/Logo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 205, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .project4 .B_side {
   background: url(../images/passportpdx.png);
   background-size: cover;
@@ -424,7 +425,7 @@ a:link, a:visited {
 .project5 p {
   z-index: 2;
 }
-/* line 215, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .project5 .A_side {
   background: url(../images/hillsdale.png);
   background-size: cover;
@@ -485,30 +486,31 @@ a:link, a:visited {
 .project6 p {
   z-index: 2;
 }
-/* line 226, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .project6 .A_side {
   background: url(../images/justline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 232, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .project6 .B_side {
   background: url(../images/JLB.png);
   background-size: cover;
   background-position: center;
 }
 
-/* line 239, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .vinylB {
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
+  color: white;
   height: 10em;
   font-size: 2em;
   text-align: center;
   padding: 1em;
 }
 
-/* line 248, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .label {
   text-align: right;
   color: red;
@@ -517,7 +519,7 @@ a:link, a:visited {
   padding-top: 1em;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .other_interests {
   height: 95em;
   background-image: url(../images/other2.png);
@@ -525,7 +527,7 @@ a:link, a:visited {
   background-size: 25em;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .other {
   width: 32.20339%;
   float: left;
@@ -534,40 +536,40 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 268, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 281, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 292, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 298, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .Business_card {
   height: 30em;
   background: white;
@@ -575,7 +577,7 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
@@ -583,12 +585,12 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 315, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 319, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
