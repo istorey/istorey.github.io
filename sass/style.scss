@@ -244,6 +244,7 @@ font-variant: small-caps;
 	height: 13em;
 	font-size: 2em;
 	text-align: center;
+	overflow: auto;
 }
 .vinylB p{
 	//margin-top: -1em;
@@ -316,9 +317,7 @@ font-variant: small-caps;
 	text-shadow: white;
 	font-variant: small-caps;
 }
-.contact {
-	text-align: center
-}
+
 li{
 	display: inline;
 }
