@@ -91,6 +91,7 @@ div{
 a:link {
 	color: #09B9B4;
 	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
 }
 
 a:link, a:visited {
@@ -296,6 +297,7 @@ a.info {
 	height: 20em;
 	position: relative;
 	padding-top: 5em;
+	margin-left: 20em;
 }
 
 .drawing {
@@ -304,7 +306,15 @@ a.info {
 	background-attachment: local;
 	height: 20em;
 	width: 24em;
+	transition-duration: 0.5s;
 
+}
+
+.drawing:hover {
+	 -webkit-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   transform: scale(1.3);
+   transition-duration: 0.5s;
 }
 
 .interests{
@@ -316,12 +326,32 @@ a.info {
 	background-image: url(../images/photo.png);
 	background-size: contain;
 	background-attachment: local;
+	height: 20em;
+	width: 24em;
+	transition-duration: 0.5s;
+}
+.photo:hover {
+	 -webkit-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   transform: scale(1.3);
+   transition-duration: 0.5s;
+
 }
 
 .hardware{
 	background-image: url(../images/hardware.png);
 	background-size: contain;
 	background-attachment: local;
+	height: 20em;
+	width: 24em;
+	transition-duration: 0.5s;
+}
+
+.hardware:hover{
+	-webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition-duration: 0.5s;
 }
 
 .Business_card {
