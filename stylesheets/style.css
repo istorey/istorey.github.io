@@ -576,47 +576,55 @@ a.info {
   background-image: url(../images/other2.png);
   background-position: left;
   background-size: 25em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-/* line 285, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .other {
   display: block;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
+  height: 20em;
+  width: 24em;
 }
 
-/* line 302, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 321, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 319, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .Business_card {
   width: 100%;
   float: left;
@@ -628,7 +636,7 @@ a.info {
   display: block;
 }
 
-/* line 328, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
@@ -636,18 +644,18 @@ a.info {
   font-variant: small-caps;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .links {
   padding: 3% 0 3% 0;
   margin: 0 auto;
 }
 
-/* line 341, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;

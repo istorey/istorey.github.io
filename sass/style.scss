@@ -279,6 +279,12 @@ a.info {
 	background-image:url(../images/other2.png);
 	background-position: left;
 	background-size: 25em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-content: center;
+  align-items: center;
 	
 }
 
@@ -296,6 +302,8 @@ a.info {
 	background-image: url(../images/drawing.png);
 	background-size: contain;
 	background-attachment: local;
+	height: 20em;
+	width: 24em;
 
 }
 
