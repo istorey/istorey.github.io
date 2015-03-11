@@ -166,6 +166,10 @@ font-variant: small-caps;
 	background-size: 25em;
 	display: block;
 }
+a.info {
+	text-decoration: none;
+	color: white;
+}
 
 .project1 {
 	@include container;

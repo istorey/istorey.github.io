@@ -120,6 +120,12 @@ a:link, a:visited {
   display: block;
 }
 
+/* line 169, ../sass/style.scss */
+a.info {
+  text-decoration: none;
+  color: white;
+}
+
 /* line 5, ../sass/style.scss */
 .project1 .container {
   width: 32.20339%;
@@ -179,14 +185,14 @@ a:link, a:visited {
 .project1 p {
   z-index: 2;
 }
-/* line 172, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 178, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .project1 .B_side p {
   font-variant: none;
 }
@@ -250,7 +256,7 @@ a:link, a:visited {
 .project2 p {
   z-index: 2;
 }
-/* line 186, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .project2 .A_side {
   background: url(../images/mission.png);
   background-size: cover;
@@ -316,7 +322,7 @@ a:link, a:visited {
 .project3 p {
   z-index: 2;
 }
-/* line 195, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -382,14 +388,14 @@ a:link, a:visited {
 .project4 p {
   z-index: 2;
 }
-/* line 207, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .project4 .A_side {
   background: url(../images/Logo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 213, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .project4 .B_side {
   background: url(../images/passportpdx.png);
   background-size: cover;
@@ -456,7 +462,7 @@ a:link, a:visited {
 .project5 p {
   z-index: 2;
 }
-/* line 223, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .project5 .A_side {
   background: url(../images/hillsdale.png);
   background-size: cover;
@@ -523,21 +529,21 @@ a:link, a:visited {
 .project6 p {
   z-index: 2;
 }
-/* line 234, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .project6 .A_side {
   background: url(../images/justline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 240, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .project6 .B_side {
   background: url(../images/JLB.png);
   background-size: cover;
   background-position: center;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .vinylB {
   background: black;
   color: white;
@@ -548,12 +554,12 @@ a:link, a:visited {
   padding-bottom: 2em;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .vinylB p {
   margin: 2em;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .label {
   text-align: right;
   color: red;
@@ -562,7 +568,7 @@ a:link, a:visited {
   padding-top: 1em;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .other_interests {
   height: 95em;
   background-image: url(../images/other2.png);
@@ -570,7 +576,7 @@ a:link, a:visited {
   background-size: 25em;
 }
 
-/* line 278, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .other {
   width: 32.20339%;
   float: left;
@@ -579,40 +585,40 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 301, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .Business_card {
   width: 100%;
   float: left;
@@ -624,7 +630,7 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 322, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
@@ -632,18 +638,18 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 330, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .links {
   padding: 3% 0 3% 0;
   margin: 0 auto;
 }
 
-/* line 335, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 339, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
