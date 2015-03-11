@@ -151,10 +151,12 @@ font-variant: small-caps;
 .design p {
 	@include span(12);
 	text-align: right;
-	padding-top: 2.5em;
+	padding-top: 1em;
 	padding-right: 2em;
-	font-size: 36px;
+	margin-bottom: -1em;
+	font-size: 46px;
 	color: red;
+	text-shadow: 3px 3px 3px black;
 	font-style: italic;
 	font-variant: small-caps;
 }
@@ -271,16 +273,16 @@ a.info {
 	font-style: italic;
 	padding-top: 1em;
 }
+
 .other_interests {
 	height:95em;
 	background-image:url(../images/other2.png);
 	background-position: left;
 	background-size: 25em;
-
+	
 }
 
 .other {
-	@include span(4 at 5 isolate);
 	display: block;	
 }
 

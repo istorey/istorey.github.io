@@ -103,15 +103,17 @@ a:link, a:visited {
   margin-left: 0;
   margin-right: 0;
   text-align: right;
-  padding-top: 2.5em;
+  padding-top: 1em;
   padding-right: 2em;
-  font-size: 36px;
+  margin-bottom: -1em;
+  font-size: 46px;
   color: red;
+  text-shadow: 3px 3px 3px black;
   font-style: italic;
   font-variant: small-caps;
 }
 
-/* line 162, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .projects {
   height: 180em;
   background-image: url(../images/projects2.png);
@@ -120,7 +122,7 @@ a:link, a:visited {
   display: block;
 }
 
-/* line 169, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 a.info {
   text-decoration: none;
   color: white;
@@ -185,14 +187,14 @@ a.info {
 .project1 p {
   z-index: 2;
 }
-/* line 176, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 182, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .project1 .B_side p {
   font-variant: none;
 }
@@ -256,7 +258,7 @@ a.info {
 .project2 p {
   z-index: 2;
 }
-/* line 190, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .project2 .A_side {
   background: url(../images/mission.png);
   background-size: cover;
@@ -322,7 +324,7 @@ a.info {
 .project3 p {
   z-index: 2;
 }
-/* line 199, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -388,14 +390,14 @@ a.info {
 .project4 p {
   z-index: 2;
 }
-/* line 211, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .project4 .A_side {
   background: url(../images/Logo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 217, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .project4 .B_side {
   background: url(../images/passportpdx.png);
   background-size: cover;
@@ -462,7 +464,7 @@ a.info {
 .project5 p {
   z-index: 2;
 }
-/* line 227, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .project5 .A_side {
   background: url(../images/hillsdale.png);
   background-size: cover;
@@ -529,21 +531,21 @@ a.info {
 .project6 p {
   z-index: 2;
 }
-/* line 238, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .project6 .A_side {
   background: url(../images/justline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 244, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .project6 .B_side {
   background: url(../images/JLB.png);
   background-size: cover;
   background-position: center;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .vinylB {
   background: black;
   color: white;
@@ -554,12 +556,12 @@ a.info {
   padding-bottom: 2em;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .vinylB p {
   margin: 2em;
 }
 
-/* line 267, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .label {
   text-align: right;
   color: red;
@@ -568,7 +570,7 @@ a.info {
   padding-top: 1em;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .other_interests {
   height: 95em;
   background-image: url(../images/other2.png);
@@ -576,49 +578,45 @@ a.info {
   background-size: 25em;
 }
 
-/* line 282, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .other {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   display: block;
 }
 
-/* line 287, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 293, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 317, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .Business_card {
   width: 100%;
   float: left;
@@ -630,7 +628,7 @@ a.info {
   display: block;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
@@ -638,18 +636,18 @@ a.info {
   font-variant: small-caps;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .links {
   padding: 3% 0 3% 0;
   margin: 0 auto;
 }
 
-/* line 339, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 343, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
