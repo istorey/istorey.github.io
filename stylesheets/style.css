@@ -1,4 +1,4 @@
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 html {
   box-sizing: border-box;
   font-family: courier;
@@ -7,18 +7,14 @@ html {
   font-size: 24px;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 body {
   background: url(../images/bg8.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 div {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -27,40 +23,49 @@ div {
   background-repeat: no-repeat;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 a:link {
   color: #09B9B4;
   text-decoration: none;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 a:link, a:visited {
   color: #09B9B4;
   text-decoration: none;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .nav {
-  background: rgba(255, 0, 0, 0.1);
+  font-size: 34px;
   text-align: center;
   position: fixed;
-  padding-left: 25%;
+  padding: 0.25em;
   z-index: 3;
   font-variant: small-caps;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .nav a {
   text-decoration: none;
   color: white;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .nav a:hover {
   color: green;
 }
 
-/* line 117, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .greeting {
   padding-top: 15%;
   padding-left: 5%;
@@ -68,7 +73,7 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .intro {
   height: 40em;
   background-image: url(../images/portfolio_header4.png);
@@ -76,7 +81,7 @@ a:link, a:visited {
   background-size: contain;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .vinylA {
   background: black;
   height: 10em;
@@ -86,23 +91,19 @@ a:link, a:visited {
   padding-bottom: 2em;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .vinylA p {
   text-align: center;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .content {
   padding: 1em;
   margin: 1em;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .design p {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   text-align: right;
   padding-top: 2.5em;
   padding-right: 2em;
@@ -112,44 +113,48 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 161, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .projects {
   height: 180em;
   background-image: url(../images/projects2.png);
   background-position: left;
   background-size: 25em;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 /* line 5, ../sass/style.scss */
 .project1 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project1 .container:hover .card, .project1 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project1 .container, .project1 .A_side, .project1 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project1 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project1 .A_side, .project1 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -157,7 +162,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project1 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -167,7 +172,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project1 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -176,51 +181,50 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project1 p {
   z-index: 2;
 }
-/* line 171, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .project1 .A_side {
   background: url(../images/honeybuckets.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 177, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .project1 .B_side p {
   font-variant: none;
 }
 
 /* line 5, ../sass/style.scss */
 .project2 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project2 .container:hover .card, .project2 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project2 .container, .project2 .A_side, .project2 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project2 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project2 .A_side, .project2 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -228,7 +232,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project2 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -238,7 +242,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project2 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -247,11 +251,11 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project2 p {
   z-index: 2;
 }
-/* line 185, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .project2 .A_side {
   background: url(../images/mission.png);
   background-size: cover;
@@ -260,33 +264,32 @@ a:link, a:visited {
 
 /* line 5, ../sass/style.scss */
 .project3 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project3 .container:hover .card, .project3 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project3 .container, .project3 .A_side, .project3 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project3 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project3 .A_side, .project3 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -294,7 +297,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project3 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -304,7 +307,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project3 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -313,11 +316,11 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project3 p {
   z-index: 2;
 }
-/* line 194, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .project3 .A_side {
   background: url(../images/ourwall.png);
   background-size: cover;
@@ -326,33 +329,32 @@ a:link, a:visited {
 
 /* line 5, ../sass/style.scss */
 .project4 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project4 .container:hover .card, .project4 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project4 .container, .project4 .A_side, .project4 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project4 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project4 .A_side, .project4 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -360,7 +362,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project4 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -370,7 +372,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project4 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -379,18 +381,18 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project4 p {
   z-index: 2;
 }
-/* line 206, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .project4 .A_side {
   background: url(../images/Logo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 212, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .project4 .B_side {
   background: url(../images/passportpdx.png);
   background-size: cover;
@@ -400,33 +402,32 @@ a:link, a:visited {
 
 /* line 5, ../sass/style.scss */
 .project5 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project5 .container:hover .card, .project5 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project5 .container, .project5 .A_side, .project5 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project5 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project5 .A_side, .project5 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -434,7 +435,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project5 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -444,7 +445,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project5 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -453,11 +454,11 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project5 p {
   z-index: 2;
 }
-/* line 222, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 .project5 .A_side {
   background: url(../images/hillsdale.png);
   background-size: cover;
@@ -467,33 +468,32 @@ a:link, a:visited {
 
 /* line 5, ../sass/style.scss */
 .project6 .container {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   -webkit-perspective: 1000;
   perspective: 1000;
   padding-top: 5em;
   cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
 }
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .project6 .container:hover .card, .project6 .container.hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .project6 .container, .project6 .A_side, .project6 .B_side {
   height: 20em;
   width: 24em;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .project6 .card {
   transition: 0.6s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .project6 .A_side, .project6 .B_side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -501,7 +501,7 @@ a:link, a:visited {
   top: 0;
   left: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .project6 .A_side {
   z-index: 2;
   -webkit-transform: rotateY(0deg);
@@ -511,7 +511,7 @@ a:link, a:visited {
   display: block;
   box-shadow: -4px 2px 2px 2px grey;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .project6 .B_side {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -520,25 +520,25 @@ a:link, a:visited {
   display: block;
   overflow: auto;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .project6 p {
   z-index: 2;
 }
-/* line 233, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .project6 .A_side {
   background: url(../images/justline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 239, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .project6 .B_side {
   background: url(../images/JLB.png);
   background-size: cover;
   background-position: center;
 }
 
-/* line 246, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .vinylB {
   background: black;
   color: white;
@@ -549,12 +549,12 @@ a:link, a:visited {
   padding-bottom: 2em;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .vinylB p {
   margin: 2em;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .label {
   text-align: right;
   color: red;
@@ -563,7 +563,7 @@ a:link, a:visited {
   padding-top: 1em;
 }
 
-/* line 269, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .other_interests {
   height: 95em;
   background-image: url(../images/other2.png);
@@ -571,61 +571,53 @@ a:link, a:visited {
   background-size: 25em;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .other {
-  width: 32.20339%;
-  float: left;
-  margin-left: 33.89831%;
-  margin-right: -100%;
   display: block;
 }
 
-/* line 282, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .wrapper {
   height: 20em;
   position: relative;
   padding-top: 5em;
 }
 
-/* line 288, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .drawing {
   background-image: url(../images/drawing.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .interests {
   font-size: 40px;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .photo {
   background-image: url(../images/photo.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .hardware {
   background-image: url(../images/hardware.png);
   background-size: contain;
   background-attachment: local;
 }
 
-/* line 312, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 .Business_card {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   height: 30em;
   background: white;
   border: solid;
   display: block;
 }
 
-/* line 321, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .Business_card p {
   text-align: center;
   color: black;
@@ -633,18 +625,18 @@ a:link, a:visited {
   font-variant: small-caps;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .links {
   padding: 3% 0 3% 0;
   margin: 0 auto;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 li {
   display: inline;
 }
 
-/* line 338, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 img {
   height: 4em;
   width: 4em;
