@@ -398,13 +398,6 @@ a.info {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 220, ../sass/style.scss */
-.project4 .B_side {
-  background: url(../images/passportpdx.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 /* line 5, ../sass/style.scss */
 .project5 .container {
@@ -538,12 +531,6 @@ a.info {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-/* line 247, ../sass/style.scss */
-.project6 .B_side {
-  background: url(../images/JLB.png);
-  background-size: cover;
-  background-position: center;
 }
 
 /* line 254, ../sass/style.scss */
